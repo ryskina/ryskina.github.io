@@ -35,7 +35,10 @@
         {% assign author_array_size = entry.author_array | size %}
 
         {% assign author_array_limit = author_array_size %}
-        {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
+        {%- if entry.display_authors %}
+          {% assign author_array_limit = entry.display_authors | plus:0 %}
+        {% endif %}
+        {%- if site.max_author_limit and author_array_limit > site.max_author_limit %}
           {% assign author_array_limit = site.max_author_limit %}
         {% endif %}
 
@@ -69,6 +72,9 @@
             {%- else -%}
               {{author.first}} {{author.last}}
             {%- endif -%}
+          {%- endif -%}
+          {%- if entry.equal -%}
+            <span style="color:var(--global-theme-color)">*</span>
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}

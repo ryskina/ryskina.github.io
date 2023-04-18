@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"TAC":
+  url: https://tac.nist.gov/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SIGMORPHON":
+  url: https://sigmorphon.github.io/
+
+"SCiL":
+  url: https://blogs.umass.edu/scil/
+
+"LREC":
+  url: http://www.elra.info/en/lrec/

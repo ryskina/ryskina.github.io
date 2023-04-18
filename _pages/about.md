@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: "Postdoc @ MIT • Language, Computation & Cognition"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral researcher at [MIT McGovern Institute for Brain Research](https://mcgovern.mit.edu/), working with [Ev Fedorenko](https://evlab.mit.edu/) and [Kyle Mahowald](https://mahowak.github.io/). I study linguistic questions using tools from natural language processing, machine learning, cognitive science, and neuroscience.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I did my PhD in [Language and Information Technologies](http://www.lti.cs.cmu.edu/) at Carnegie Mellon University, advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Ed Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I recieved my BSc and MSc degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I had also spent time at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) (2015) and at [DiDi Labs](https://www.didiglobal.com/science/ailabs) (2020).
+
+Outside of research, I sing with the [MIT Concert Choir](http://web.mit.edu/21m401/www/) (read our [concert review](https://www.classical-scene.com/2023/04/10/let-there-be-light-at-kresge/)!) and help with organizing at [Queer in AI](https://www.queerinai.com/) 🌈
