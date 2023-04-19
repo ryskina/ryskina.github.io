@@ -10,9 +10,9 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<span style="font-size: 0.875rem;margin-top:0">
+<p style="font-size: 0.875rem;margin-top: -2rem">
   <span style="color:var(--global-theme-color)">*</span> denotes equal contribution
-</span>
+</p>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>

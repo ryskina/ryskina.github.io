@@ -18,8 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher at [MIT McGovern Institute for Brain Research](https://mcgovern.mit.edu/), working with [Ev Fedorenko](https://evlab.mit.edu/) and [Kyle Mahowald](https://mahowak.github.io/). I study linguistic questions using tools from natural language processing, machine learning, cognitive science, and neuroscience.
 
-I did my PhD in [Language and Information Technologies](http://www.lti.cs.cmu.edu/) at Carnegie Mellon University, advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Ed Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/). 
-
-I recieved my BSc and MSc degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I had also spent time at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) (2015) and at [DiDi Labs](https://www.didiglobal.com/science/ailabs) (2020).
+I did my PhD in [Language and Information Technologies](http://www.lti.cs.cmu.edu/) at Carnegie Mellon University, advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Ed Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://icebergnlp.github.io/). 
+Before that, I recieved my BSc and MSc degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I had also spent time at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) (2015) and at [DiDi Labs](https://www.didiglobal.com/science/ailabs) (2020).
 
 Outside of research, I sing with the [MIT Concert Choir](http://web.mit.edu/21m401/www/) (read our [concert review](https://www.classical-scene.com/2023/04/10/let-there-be-light-at-kresge/)!) and help with organizing at [Queer in AI](https://www.queerinai.com/) 🌈
