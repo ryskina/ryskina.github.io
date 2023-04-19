@@ -1,3 +1,12 @@
+"ACL":
+  url: https://www.aclweb.org/portal/acl
+
+"EACL":
+  url: http://eacl.org/
+
+"BlackboxNLP":
+  url: https://blackboxnlp.github.io/
+
 "TAC":
   url: https://tac.nist.gov/
 
@@ -12,3 +21,6 @@
 
 "FAccT":
   url: https://facctconference.org/index.html
+
+"XRDS":
+  url: https://xrds.acm.org/
