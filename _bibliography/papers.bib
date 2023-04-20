@@ -106,7 +106,7 @@
     url = "https://aclanthology.org/2022.lrec-1.89",
     pages = "840--855",
     abstract = "The Universal Morphology (UniMorph) project is a collaborative effort providing broad-coverage instantiated normalized morphological inflection tables for hundreds of diverse world languages. The project comprises two major thrusts: a language-independent feature schema for rich morphological annotation, and a type-level resource of annotated data in diverse languages realizing that schema. This paper presents the expansions and improvements on several fronts that were made in the last couple of years (since McCarthy et al. (2020)). Collaborative efforts by numerous linguists have added 66 new languages, including 24 endangered languages. We have implemented several improvements to the extraction pipeline to tackle some issues, e.g., missing gender and macrons information. We have amended the schema to use a hierarchical structure that is needed for morphological phenomena like multiple-argument agreement and case stacking, while adding some missing morphological features to make the schema more inclusive.In light of the last UniMorph release, we also augmented the database with morpheme segmentation for 16 languages. Lastly, this new release makes a push towards inclusion of derivational morphology in UniMorph by enriching the data and annotation schema with instances representing derivational processes from MorphyNet.",
-    supp="https://github.com/unimorph",
+    data = "https://github.com/unimorph",
     pdf = "https://aclanthology.org/2022.lrec-1.89",
     display_authors = 2,
     equal = true,
@@ -125,9 +125,9 @@
     doi = "10.18653/v1/2021.blackboxnlp-1.30",
     pages = "389--395",
     abstract = "Embedding words in high-dimensional vector spaces has proven valuable in many natural language applications. In this work, we investigate whether similarly-trained embeddings of integers can capture concepts that are useful for mathematical applications. We probe the integer embeddings for mathematical knowledge, apply them to a set of numerical reasoning tasks, and show that by learning the representations from mathematical sequence data, we can substantially improve over number embeddings learned from English text corpora.",
-    supp = "https://github.com/ryskina/integer-embedding-tests",
     poster={Ryskina-Knight-2021-integers-poster.pdf},
     pdf = "https://aclanthology.org/2021.blackboxnlp-1.30",
+    data = "https://github.com/ryskina/integer-embedding-tests",
 }
 
 @inproceedings{pimentel-ryskina-etal-2021-sigmorphon,
@@ -200,7 +200,7 @@
     pages = "229--259",
     abstract = "This year's iteration of the SIGMORPHON Shared Task on morphological reinflection focuses on typological diversity and cross-lingual variation of morphosyntactic features. In terms of the task, we enrich UniMorph with new data for 32 languages from 13 language families, with most of them being under-resourced: Kunwinjku, Classical Syriac, Arabic (Modern Standard, Egyptian, Gulf), Hebrew, Amharic, Aymara, Magahi, Braj, Kurdish (Central, Northern, Southern), Polish, Karelian, Livvi, Ludic, Veps, V{\~o}ro, Evenki, Xibe, Tuvan, Sakha, Turkish, Indonesian, Kodi, Seneca, Ash{\'a}ninka, Yanesha, Chukchi, Itelmen, Eibela. We evaluate six systems on the new data and conduct an extensive error analysis of the systems' predictions. Transformer-based models generally demonstrate superior performance on the majority of languages, achieving {\textgreater}90{\%} accuracy on 65{\%} of them. The languages on which systems yielded low accuracy are mainly under-resourced, with a limited amount of data. Most errors made by the systems are due to allomorphy, honorificity, and form variation. In addition, we observe that systems especially struggle to inflect multiword lemmas. The systems also produce misspelled forms or end up in repetitive loops (e.g., RNN-based models). Finally, we report a large drop in systems' performance on previously unseen lemmas.",
     pdf = "https://aclanthology.org/2021.sigmorphon-1.25",
-    supp = "https://github.com/sigmorphon/2021Task0",
+    code = "https://github.com/sigmorphon/2021Task0",
     display_authors = 2,
     equal = true,
 }
@@ -221,7 +221,7 @@
     pages = "198--211",
     abstract = "Traditionally, character-level transduction problems have been solved with finite-state models designed to encode structural and linguistic knowledge of the underlying process, whereas recent approaches rely on the power and flexibility of sequence-to-sequence models with attention. Focusing on the less explored unsupervised learning scenario, we compare the two model classes side by side and find that they tend to make different types of errors even when achieving comparable performance. We analyze the distributions of different error classes using two unsupervised tasks as testbeds: converting informally romanized text into the native script of its language (for Russian, Arabic, and Kannada) and translating between a pair of closely related languages (Serbian and Bosnian). Finally, we investigate how combining finite-state and sequence-to-sequence models at decoding time affects the output quantitatively and qualitatively.",
     slides={Ryskina-etal-2021-error-analysis-slides.pdf},
-    talk={https://youtu.be/ijwOF0fpqMs},
+    talk = {https://aclanthology.org/2021.sigmorphon-1.22.mp4},
 }
 
 @inproceedings{ravichander-etal-2021-noiseqa,
@@ -259,9 +259,9 @@
     doi = "10.18653/v1/2020.acl-main.737",
     pages = "8308--8319",
     abstract = "Informal romanization is an idiosyncratic process used by humans in informal digital communication to encode non-Latin script languages into Latin character sets found on common keyboards. Character substitution choices differ between users but have been shown to be governed by the same main principles observed across a variety of languages{---}namely, character pairs are often associated through phonetic or visual similarity. We propose a noisy-channel WFST cascade model for deciphering the original non-Latin script from observed romanized text in an unsupervised fashion. We train our model directly on romanized data from two languages: Egyptian Arabic and Russian. We demonstrate that adding inductive bias through phonetic and visual priors on character mappings substantially improves the model{'}s performance on both languages, yielding results much closer to the supervised skyline. Finally, we introduce a new dataset of romanized Russian, collected from a Russian social network website and partially annotated for our experiments.",
-    arxiv={2005.02517},
+    pdf = "https://aclanthology.org/2020.acl-main.737",
     slides={Ryskina-etal-2020-romanization-slides.pdf},
-    supp={https://github.com/ryskina/romanization-decipherment},
+    code={https://github.com/ryskina/romanization-decipherment},
     talk={https://slideslive.com/38929400/phonetic-and-visual-priors-for-decipherment-of-informal-romanization},
     selected={true},
 }
@@ -282,7 +282,7 @@
     pages = "367--376",
     abstract = "We perform statistical analysis of the phenomenon of neology, the process by which new words emerge in a language, using large diachronic corpora of English. We investigate the importance of two factors, semantic sparsity and frequency growth rates of semantic neighbors, formalized in the distributional semantics paradigm. We show that both factors are predictive of word emergence although we find more support for the latter hypothesis. Besides presenting a new linguistic application of distributional semantics, this study tackles the linguistic question of the role of language-internal factors (in our case, sparsity) in language change motivated by language-external factors (reflected in frequency growth).",
     poster={Ryskina-etal-2020-neology-poster.pdf},
-    supp={https://github.com/ryskina/neology},
+    code={https://github.com/ryskina/neology},
     pdf = "https://aclanthology.org/2020.scil-1.43",
     selected={true},
 }
