@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description:
-years: [2022, 2021, 2020, 2019, 2017]
+years: [2023, 2022, 2021, 2020, 2019, 2017]
 nav: true
 nav_order: 1
 ---
@@ -25,15 +25,7 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h1>Queer in AI</h1>
-
-{% assign years = "2023, 2022" | split: ", " %}
-{%- for y in years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f qai -q @*[year={{y}}]* %}
-{% endfor %}
-
-<h1>preprints</h1>
+<h1>preprints & other</h1>
 
 {% assign years = "2022, 2021" | split: ", " %}
 {%- for y in years %}
