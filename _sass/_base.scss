@@ -591,8 +591,11 @@ footer.sticky-bottom {
         }
 
         .award {
+          background-color: var(--global-bg-color);
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
         }
       }
 

@@ -165,6 +165,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 collections:
   news:
+    enabled: true
+    scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+    limit: 3
     defaults:
       layout: post
     output: true
@@ -173,7 +176,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news:
+announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
