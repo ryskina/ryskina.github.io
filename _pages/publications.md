@@ -18,6 +18,13 @@ nav_order: 1
 
 {% bibliography -f thesis %}
 
+<h1>journal articles</h1>
+
+{%- for y in "2023" %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f journal -q @*[year={{y}}]* %}
+{% endfor %}
+
 <h1>conference & workshop papers</h1>
 
 {%- for y in page.years %}
