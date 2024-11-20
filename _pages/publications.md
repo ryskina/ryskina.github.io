@@ -34,7 +34,7 @@ nav_order: 1
 
 <h1>preprints & other</h1>
 
-{% assign years = "2022, 2021" | split: ", " %}
+{% assign years = "2024, 2022, 2021" | split: ", " %}
 {%- for y in years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f preprints -q @*[year={{y}}]* %}

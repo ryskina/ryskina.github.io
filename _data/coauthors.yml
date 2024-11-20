@@ -81,3 +81,16 @@
 "Carbonell":
   - firstname: ["Jaime"]
     url: https://www.cs.cmu.edu/~jgc/
+
+"Ivanova":
+  - firstname: ["Anna"]
+    url: https://anna-ivanova.net/
+
+"Lipkin":
+  - firstname: ["Benjamin"]
+    url: https://benlipkin.github.io/
+
+"Sathe":
+  - firstname: ["Aalok"]
+    url: https://aalok-sathe.gitlab.io/
+
