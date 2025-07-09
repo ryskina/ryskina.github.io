@@ -1,6 +1,6 @@
 "Berg-Kirkpatrick":
   - firstname: ["Taylor", "T."]
-    url: http://cseweb.ucsd.edu/~tberg/
+    url: https://icebergnlp.github.io/
 
 "Gormley":
   - firstname: ["Matthew R.", "M. R."]
@@ -12,7 +12,7 @@
 
 "Ravichander":
   - firstname: ["Abhilasha", "A."]
-    url: https://www.cs.cmu.edu/~aravicha/
+    url: https://lasharavichander.github.io/
 
 "Dalmia":
   - firstname: ["Siddharth", "S."]
@@ -32,7 +32,7 @@
     
 "Rabinovich":
   - firstname: ["Ella", "E."]
-    url: http://www.cs.toronto.edu/~ella/
+    url: https://www.int.mta.ac.il/faculty-members/dr.-ella-rabinovich
     
 "Alpert-Abrams":
   - firstname: ["Hannah", "H."]
@@ -64,7 +64,7 @@
 
 "Agnew":
   - firstname: ["William"]
-    url: https://sites.google.com/cs.washington.edu/william-agnew/home
+    url: https://sites.google.com/view/williamagnew?usp=sharing
 
 "Giulianelli":
   - firstname: ["Mario"]
@@ -93,4 +93,16 @@
 "Sathe":
   - firstname: ["Aalok"]
     url: https://aalok-sathe.gitlab.io/
+
+"Fung":
+  - firstname: ["Alexander"]
+    url: https://alexanderdfung.github.io/
+
+"Fedorenko":
+  - firstname: ["Evelina"]
+    url: https://www.evlab.mit.edu/
+
+"Tuckute":
+  - firstname: ["Greta"]
+    url: http://www.tuckute.com/
 
