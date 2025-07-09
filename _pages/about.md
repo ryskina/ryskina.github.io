@@ -14,6 +14,11 @@ news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
 I recently finished my postdoc at [Ev Fedorenko's lab](https://evlab.mit.edu/) at the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/) at [MIT](https://mit.edu/). My research studies long-tail phenomena in language using methodologies from natural language processing, machine learning, linguistics, and cognitive neuroscience.

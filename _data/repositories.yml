@@ -2,6 +2,7 @@ github_users:
   - torvalds
   - alshedivat
 
+<<<<<<< HEAD
 github_repos:
   - alshedivat/al-folio
   - twbs/bootstrap
@@ -10,3 +11,15 @@ github_repos:
   - FortAwesome/Font-Awesome
   - jpswalsh/academicons
   - mathjax/MathJax
+=======
+repo_description_lines_max: 2
+
+github_repos:
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
+>>>>>>> upstream/main
