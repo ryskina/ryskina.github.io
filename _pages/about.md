@@ -21,7 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a CIFAR AI Safety Postdoctoral Fellow at the [Vector Institute for AI](https://vectorinstitute.ai/). I work with [Gillian Hadfield](https://gillianhadfield.org/) on interdisciplinary approaches to AI alignment, building on studies of how social norms and rules are shaped by human societies. My research interests are diverse, spanning artificial intelligence, natural language processing, linguistics, and cognitive and behavioural sciences.
+I am a [CIFAR AI Safety](https://cifar.ca/ai/caisi/) Postdoctoral Fellow at the [Vector Institute for AI](https://vectorinstitute.ai/). I work with [Gillian Hadfield](https://gillianhadfield.org/) on interdisciplinary approaches to AI alignment, building on studies of how social norms and rules are shaped by human societies. My research interests are diverse, spanning artificial intelligence, natural language processing, linguistics, and cognitive and behavioural sciences.
 
 <!-- Maria earned her PhD from the Language Technologies Institute (School of Computer Science) at Carnegie Mellon University. Her dissertation work focused on computational modelling of non-standard language uses and the evolution of language norms. Following that, Maria held a postdoctoral appointment at MIT, where she used methods from cognitive neuroscience and NeuroAI to study how conceptual meaning is represented in the brain and in large language models. In her current position as a CIFAR AI Safety Postdoctoral Fellow, Maria collaborates with Prof. Gillian Hadfield on developing interdisciplinary approaches to AI alignment, focusing on how multi-agent interaction can help normative reasoning emerge in large language models. -->
 
