@@ -103,6 +103,13 @@ ninja.data = [{
           window.open("https://vectorinstitute.ai/team/maria-ryskina/", "_blank");
         },
       },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/mryskina.bsky.social", "_blank");
+        },
+      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
