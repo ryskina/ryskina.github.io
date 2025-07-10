@@ -57,6 +57,18 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
+      {% if entry.equal_first %}
+        {% assign author_array_limit = entry.equal_first %}
+      {% endif %}
+      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+      {% if more_authors <= 2 %}
+        {% assign author_array_limit = author_array_size %}
+      {% endif %}
+
+      {% if entry.display_authors %}
+        {% assign author_array_limit = entry.display_authors %}
+      {% endif %}
+
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
@@ -80,7 +92,7 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
+            {%- if forloop.length > 2 or forloop.length < author_array_size %}, {% elsif forloop.length == 2 %}  {% endif %}
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
@@ -89,6 +101,9 @@
             {{- author.first }}
             {{ author_last_html -}}
           </em>
+          {%- if entry.equal_first -%}
+            <span style="color:var(--global-theme-color)">*</span>
+          {%- endif -%}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -99,6 +114,9 @@
             {{- author.first }}
             {{ author_last_html -}}
           {% endif %}
+          {%- if entry.equal_first -%}
+            <span style="color:var(--global-theme-color)">*</span>
+          {%- endif -%}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -342,7 +360,17 @@
     {% if entry.award %}
       <!-- Hidden Award block -->
       <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
+          {% assign entry_path = entry.award | prepend: '/assets/img/awards/' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=entry_path
+            sizes = "200px"
+            class="preview z-depth-1 rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt=entry.award
+          %}
       </div>
     {% endif %}
 

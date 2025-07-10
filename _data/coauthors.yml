@@ -1,145 +1,83 @@
-<<<<<<< HEAD
-"Berg-Kirkpatrick":
+"berg-kirkpatrick":
   - firstname: ["Taylor", "T."]
     url: https://icebergnlp.github.io/
 
-"Gormley":
+"gormley":
   - firstname: ["Matthew R.", "M. R."]
     url: http://www.cs.cmu.edu/~mgormley/
 
-"Hovy":
+"hovy":
   - firstname: ["Eduard", "E."]
     url: http://www.cs.cmu.edu/~hovy/
 
-"Ravichander":
+"ravichander":
   - firstname: ["Abhilasha", "A."]
     url: https://lasharavichander.github.io/
 
-"Dalmia":
+"dalmia":
   - firstname: ["Siddharth", "S."]
     url: https://www.cs.cmu.edu/~sdalmia/
     
-"Mortensen":
+"mortensen":
   - firstname: ["David", "D.", "David R.", "D. R."]
     url: https://www.cs.cmu.edu/~dmortens/
     
-"Tsvetkov":
+"tsvetkov":
   - firstname: ["Yulia", "Y."]
     url: https://homes.cs.washington.edu/~yuliats/
     
-"Black":
+"black":
   - firstname: ["Alan", "A.", "Alan W", "Alan W.", "A. W", "A. W."]
     url: http://www.cs.cmu.edu/~awb/
     
-"Rabinovich":
+"rabinovich":
   - firstname: ["Ella", "E."]
     url: https://www.int.mta.ac.il/faculty-members/dr.-ella-rabinovich
     
-"Alpert-Abrams":
+"alpert-abrams":
   - firstname: ["Hannah", "H."]
     url: http://halperta.com/
     
-"Garrette":
+"garrette":
   - firstname: ["Dan", "D."]
     url: http://www.dhgarrette.com/
-    
-"Metze":
-  - firstname: ["Florian", "F."]
-    url: https://www.cs.cmu.edu/~fmetze/interACT/Home.html
 
-"Knight":
+"knight":
   - firstname: ["Kevin", "K."]
     url: https://kevincrawfordknight.github.io/
 
-"Pimentel":
+"pimentel":
   - firstname: ["Tiago", "T."]
     url: https://tpimentelms.github.io/
 
-"Hupkes":
+"hupkes":
   - firstname: ["Dieuwke"]
     url: https://dieuwkehupkes.nl/
 
-"Subramonian":
-  - firstname: ["Arjun"]
-    url: https://arjunsubramonian.github.io/
-
-"Agnew":
+"agnew":
   - firstname: ["William"]
     url: https://sites.google.com/view/williamagnew?usp=sharing
 
-"Giulianelli":
-  - firstname: ["Mario"]
-    url: https://glnmario.github.io/
-
-"Dankers":
-  - firstname: ["Verna"]
-    url: https://www.vernadankers.com/
-
-"Nagesh":
-  - firstname: ["Ajay"]
-    url: https://sites.google.com/site/ajaynagesh/home
-
-"Carbonell":
-  - firstname: ["Jaime"]
-    url: https://www.cs.cmu.edu/~jgc/
-
-"Ivanova":
-  - firstname: ["Anna"]
+"ivanova":
+  - firstname: ["Anna", "Anna A."]
     url: https://anna-ivanova.net/
 
-"Lipkin":
+"lipkin":
   - firstname: ["Benjamin"]
     url: https://benlipkin.github.io/
 
-"Sathe":
+"sathe":
   - firstname: ["Aalok"]
     url: https://aalok-sathe.gitlab.io/
 
-"Fung":
+"fung":
   - firstname: ["Alexander"]
     url: https://alexanderdfung.github.io/
 
-"Fedorenko":
+"fedorenko":
   - firstname: ["Evelina"]
     url: https://www.evlab.mit.edu/
 
-"Tuckute":
+"tuckute":
   - firstname: ["Greta"]
     url: http://www.tuckute.com/
-
-=======
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
->>>>>>> upstream/main

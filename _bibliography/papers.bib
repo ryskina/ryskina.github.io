@@ -15,12 +15,14 @@
             Nathaniel Dennler and Michael Noseworthy and Sharvani Jha and Emi Baylor and 
             Aditya Joshi and Natalia Y. Bilenko and Andrew McNamara and Raphael Gontijo-Lopes and
             Alex Markham and Evyn Dǒng and Jackie Kay and Manu Saraswat and Nikhil Vytla and Luke Stark},
-    booktitle = {ACM Conference on Fairness, Accountability, and Transparency},
+    booktitle = {Proc. ACM Conference on Fairness, Accountability, and Transparency},
     abstract = {We present Queer in AI as a case study for community-led participatory design in AI. We examine how participatory design and intersectional tenets started and shaped this community's programs over the years. We discuss different challenges that emerged in the process, look at ways this organization has fallen short of operationalizing participatory and intersectional principles, and then assess the organization's impact. Queer in AI provides important lessons and insights for practitioners and theorists of participatory methods broadly through its rejection of hierarchy in favor of decentralization, success at building aid and programs by and for the queer community, and effort to change actors and institutions outside of the queer community. Finally, we theorize how communities like Queer in AI contribute to the participatory design in AI more broadly by fostering cultures of participation in AI, welcoming and empowering marginalized participants, critiquing poor or exploitative participatory practices, and bringing participation to institutions outside of individual research projects. Queer in AI's work serves as a case study of grassroots activism and participatory methods within AI, demonstrating the potential of community-led participatory methods and intersectional praxis, while also providing challenges, case studies, and nuanced insights to researchers developing and using participatory methods.},
     arxiv={2303.16972},
     year={2023},
-    awards="Best Paper Award",
-    display_authors = 1
+    award="0003_001.png",
+    award_name={Best Paper Award},
+    display_authors = 1,
+    doi={10.1145/3593013.3594134}
 }
 
 @inproceedings{batsuren-etal-2022-unimorph,
@@ -129,9 +131,8 @@
     pages = "840--855",
     abstract = "The Universal Morphology (UniMorph) project is a collaborative effort providing broad-coverage instantiated normalized morphological inflection tables for hundreds of diverse world languages. The project comprises two major thrusts: a language-independent feature schema for rich morphological annotation, and a type-level resource of annotated data in diverse languages realizing that schema. This paper presents the expansions and improvements on several fronts that were made in the last couple of years (since McCarthy et al. (2020)). Collaborative efforts by numerous linguists have added 66 new languages, including 24 endangered languages. We have implemented several improvements to the extraction pipeline to tackle some issues, e.g., missing gender and macrons information. We have amended the schema to use a hierarchical structure that is needed for morphological phenomena like multiple-argument agreement and case stacking, while adding some missing morphological features to make the schema more inclusive.In light of the last UniMorph release, we also augmented the database with morpheme segmentation for 16 languages. Lastly, this new release makes a push towards inclusion of derivational morphology in UniMorph by enriching the data and annotation schema with instances representing derivational processes from MorphyNet.",
     data = "https://github.com/unimorph",
-    pdf = "https://aclanthology.org/2022.lrec-1.89",
-    display_authors = 2,
-    equal = true,
+    pdf = "https://aclanthology.org/2022.lrec-1.89.pdf",
+    equal_first = 2,
 }
 
 @inproceedings{ryskina-knight-2021-learning,
@@ -148,7 +149,7 @@
     pages = "389--395",
     abstract = "Embedding words in high-dimensional vector spaces has proven valuable in many natural language applications. In this work, we investigate whether similarly-trained embeddings of integers can capture concepts that are useful for mathematical applications. We probe the integer embeddings for mathematical knowledge, apply them to a set of numerical reasoning tasks, and show that by learning the representations from mathematical sequence data, we can substantially improve over number embeddings learned from English text corpora.",
     poster={Ryskina-Knight-2021-integers-poster.pdf},
-    pdf = "https://aclanthology.org/2021.blackboxnlp-1.30",
+    pdf = "https://aclanthology.org/2021.blackboxnlp-1.30.pdf",
     data = "https://github.com/ryskina/integer-embedding-tests",
 }
 
@@ -221,10 +222,9 @@
     doi = "10.18653/v1/2021.sigmorphon-1.25",
     pages = "229--259",
     abstract = "This year's iteration of the SIGMORPHON Shared Task on morphological reinflection focuses on typological diversity and cross-lingual variation of morphosyntactic features. In terms of the task, we enrich UniMorph with new data for 32 languages from 13 language families, with most of them being under-resourced: Kunwinjku, Classical Syriac, Arabic (Modern Standard, Egyptian, Gulf), Hebrew, Amharic, Aymara, Magahi, Braj, Kurdish (Central, Northern, Southern), Polish, Karelian, Livvi, Ludic, Veps, V{\~o}ro, Evenki, Xibe, Tuvan, Sakha, Turkish, Indonesian, Kodi, Seneca, Ash{\'a}ninka, Yanesha, Chukchi, Itelmen, Eibela. We evaluate six systems on the new data and conduct an extensive error analysis of the systems' predictions. Transformer-based models generally demonstrate superior performance on the majority of languages, achieving {\textgreater}90{\%} accuracy on 65{\%} of them. The languages on which systems yielded low accuracy are mainly under-resourced, with a limited amount of data. Most errors made by the systems are due to allomorphy, honorificity, and form variation. In addition, we observe that systems especially struggle to inflect multiword lemmas. The systems also produce misspelled forms or end up in repetitive loops (e.g., RNN-based models). Finally, we report a large drop in systems' performance on previously unseen lemmas.",
-    pdf = "https://aclanthology.org/2021.sigmorphon-1.25",
+    pdf = "https://aclanthology.org/2021.sigmorphon-1.25.pdf",
     code = "https://github.com/sigmorphon/2021Task0",
-    display_authors = 2,
-    equal = true,
+    equal_first = 2,
 }
 
 @inproceedings{ryskina-etal-2021-comparative,
@@ -243,8 +243,7 @@
     pages = "198--211",
     abstract = "Traditionally, character-level transduction problems have been solved with finite-state models designed to encode structural and linguistic knowledge of the underlying process, whereas recent approaches rely on the power and flexibility of sequence-to-sequence models with attention. Focusing on the less explored unsupervised learning scenario, we compare the two model classes side by side and find that they tend to make different types of errors even when achieving comparable performance. We analyze the distributions of different error classes using two unsupervised tasks as testbeds: converting informally romanized text into the native script of its language (for Russian, Arabic, and Kannada) and translating between a pair of closely related languages (Serbian and Bosnian). Finally, we investigate how combining finite-state and sequence-to-sequence models at decoding time affects the output quantitatively and qualitatively.",
     slides={Ryskina-etal-2021-error-analysis-slides.pdf},
-    pdf = "https://aclanthology.org/2021.sigmorphon-1.22/",
-    talk = "https://aclanthology.org/2021.sigmorphon-1.22.mp4"
+    video = "https://aclanthology.org/2021.sigmorphon-1.22.mp4"
 }
 
 @inproceedings{ravichander-etal-2021-noiseqa,
@@ -264,7 +263,7 @@
     doi = "10.18653/v1/2021.eacl-main.259",
     pages = "2976--2992",
     abstract = "When Question-Answering (QA) systems are deployed in the real world, users query them through a variety of interfaces, such as speaking to voice assistants, typing questions into a search engine, or even translating questions to languages supported by the QA system. While there has been significant community attention devoted to identifying correct answers in passages assuming a perfectly formed question, we show that components in the pipeline that precede an answering engine can introduce varied and considerable sources of error, and performance can degrade substantially based on these upstream noise sources even for powerful pre-trained QA models. We conclude that there is substantial room for progress before QA systems can be effectively deployed, highlight the need for QA evaluation to expand to consider real-world use, and hope that our findings will spur greater community interest in the issues that arise when our systems actually need to be of utility to humans.",
-    pdf = "https://aclanthology.org/2021.eacl-main.259",
+    pdf = "https://aclanthology.org/2021.eacl-main.259.pdf",
     website={https://noiseqa.github.io/},
 }
 
@@ -282,11 +281,10 @@
     doi = "10.18653/v1/2020.acl-main.737",
     pages = "8308--8319",
     abstract = "Informal romanization is an idiosyncratic process used by humans in informal digital communication to encode non-Latin script languages into Latin character sets found on common keyboards. Character substitution choices differ between users but have been shown to be governed by the same main principles observed across a variety of languages{---}namely, character pairs are often associated through phonetic or visual similarity. We propose a noisy-channel WFST cascade model for deciphering the original non-Latin script from observed romanized text in an unsupervised fashion. We train our model directly on romanized data from two languages: Egyptian Arabic and Russian. We demonstrate that adding inductive bias through phonetic and visual priors on character mappings substantially improves the model{'}s performance on both languages, yielding results much closer to the supervised skyline. Finally, we introduce a new dataset of romanized Russian, collected from a Russian social network website and partially annotated for our experiments.",
-    pdf = "https://aclanthology.org/2020.acl-main.737",
+    pdf = "https://aclanthology.org/2020.acl-main.737.pdf",
     slides={Ryskina-etal-2020-romanization-slides.pdf},
     code={https://github.com/ryskina/romanization-decipherment},
-    talk={https://slideslive.com/38929400/phonetic-and-visual-priors-for-decipherment-of-informal-romanization},
-    selected={true},
+    video={https://slideslive.com/38929400/phonetic-and-visual-priors-for-decipherment-of-informal-romanization},
 }
 
 @inproceedings{ryskina-etal-2020-new,
@@ -302,12 +300,12 @@
     address = "New York, New York",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2020.scil-1.43",
+    doi = "10.7275/1jra-8m83",
     pages = "367--376",
     abstract = "We perform statistical analysis of the phenomenon of neology, the process by which new words emerge in a language, using large diachronic corpora of English. We investigate the importance of two factors, semantic sparsity and frequency growth rates of semantic neighbors, formalized in the distributional semantics paradigm. We show that both factors are predictive of word emergence although we find more support for the latter hypothesis. Besides presenting a new linguistic application of distributional semantics, this study tackles the linguistic question of the role of language-internal factors (in our case, sparsity) in language change motivated by language-external factors (reflected in frequency growth).",
     poster={Ryskina-etal-2020-neology-poster.pdf},
     code={https://github.com/ryskina/neology},
-    pdf = "https://aclanthology.org/2020.scil-1.43",
-    selected={true},
+    pdf = "https://aclanthology.org/2020.scil-1.43.pdf",
 }
 
 @inproceedings{opera-2019,
@@ -336,7 +334,6 @@
     year={2019},
     abstract = "The OPERA system of CMU and USC/ISI performs end-to-end information extraction from multiple media and languages (English, Russian, Ukrainian), integrates the results, builds Knowledge Bases about the domain, and does hypothesis creation and reasoning to answer questions.",
     pdf={https://tac.nist.gov/publications/2019/participant.papers/TAC2019.OPERA.proceedings.pdf},
-    display_authors = 2,
 }
 
 @inproceedings{ryskina-etal-2017-automatic,
@@ -355,5 +352,5 @@
     pages = "411--416",
     abstract = "Compositor attribution, the clustering of pages in a historical printed document by the individual who set the type, is a bibliographic task that relies on analysis of orthographic variation and inspection of visual details of the printed page. In this paper, we introduce a novel unsupervised model that jointly describes the textual and visual features needed to distinguish compositors. Applied to images of Shakespeare{'}s First Folio, our model predicts attributions that agree with the manual judgements of bibliographers with an accuracy of 87%, even on text that is the output of OCR.",
     poster={https://www.aclweb.org/anthology/attachments/P17-2065.Poster.pdf},
-    pdf = "https://aclanthology.org/P17-2065",
+    pdf = "https://aclanthology.org/P17-2065.pdf",
 }
