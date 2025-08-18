@@ -53,6 +53,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-in-vancouver-for-icml-2025-find-me-at-the-queer-in-ai-social",
           title: 'I’ll be in Vancouver for ICML 2025. Find me at the Queer in...',
           description: "",
+          section: "News",},{id: "news-a-paper-on-lm-brain-alignment-in-conceptual-processing-accepted-to-colm-2025",
+          title: 'A paper on LM–brain alignment in conceptual processing accepted to COLM 2025.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
