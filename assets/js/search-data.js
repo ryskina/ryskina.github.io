@@ -59,8 +59,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-giving-an-invited-talk-at-the-national-research-council-of-canada-in-ottawa",
           title: 'I am giving an invited talk at the National Research Council of Canada...',
           description: "",
-          section: "News",},{id: "news-presenting-my-lm-brain-work-at-colm-in-montreal-sessions-spotlight-2-amp-amp-poster-2",
-          title: 'Presenting my LM–brain work at COLM in Montreal (sessions Spotlight 2 &amp;amp;amp; Poster...',
+          section: "News",},{id: "news-i-m-presenting-my-lm-brain-work-at-colm-2025-in-montreal-sessions-spotlight-2-amp-amp-poster-2-as-well-as-co-organizing-the-queer-in-ai-social",
+          title: 'I’m presenting my LM–brain work at COLM 2025 in Montreal (sessions Spotlight 2...',
           description: "",
           section: "News",},{
         id: 'social-email',
