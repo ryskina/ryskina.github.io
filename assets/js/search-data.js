@@ -62,6 +62,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-presenting-my-lm-brain-work-at-colm-2025-in-montreal-sessions-spotlight-2-amp-amp-poster-2-as-well-as-co-organizing-the-queer-in-ai-social",
           title: 'I’m presenting my LM–brain work at COLM 2025 in Montreal (sessions Spotlight 2...',
           description: "",
+          section: "News",},{id: "news-i-was-a-guest-on-the-women-in-ai-research-podcast-huge-thanks-to-the-hosts-jekaterina-and-malikeh-for-the-great-discussion-about-llms-brains-and-understanding-language",
+          title: 'I was a guest on the Women in AI Research podcast! Huge thanks...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
