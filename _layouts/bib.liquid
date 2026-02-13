@@ -61,7 +61,7 @@
         {% assign author_array_limit = entry.equal_first %}
       {% endif %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-      {% if more_authors <= 2 %}
+      {% if more_authors <= 3 %}
         {% assign author_array_limit = author_array_size %}
       {% endif %}
 

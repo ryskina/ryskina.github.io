@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 ---
 
 I am a [CIFAR AI Safety](https://cifar.ca/ai/caisi/) Postdoctoral Fellow at the [Vector Institute for AI](https://vectorinstitute.ai/). I work with [Gillian Hadfield](https://gillianhadfield.org/) on interdisciplinary approaches to AI alignment, building on studies of how social norms and rules are shaped by human societies. My research interests are diverse, spanning artificial intelligence, natural language processing, linguistics, and cognitive and behavioural sciences.
