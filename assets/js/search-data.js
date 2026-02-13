@@ -65,6 +65,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-a-guest-on-the-women-in-ai-research-podcast-huge-thanks-to-the-hosts-jekaterina-and-malikeh-for-the-great-discussion-about-llms-brains-and-understanding-language",
           title: 'I was a guest on the Women in AI Research podcast! Huge thanks...',
           description: "",
+          section: "News",},{id: "news-our-work-on-normative-justification-for-llm-debate-was-featured-in-the-caisi-research-program-at-cifar-s-year-in-review-report",
+          title: 'Our work on normative justification for LLM debate was featured in the CAISI...',
+          description: "",
+          section: "News",},{id: "news-a-paper-on-word-emergence-in-published-writing-and-on-social-media-accepted-to-lchange-2026",
+          title: 'A paper on word emergence in published writing and on social media accepted...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
