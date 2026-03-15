@@ -71,6 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-on-word-emergence-in-published-writing-and-on-social-media-accepted-to-lchange-2026",
           title: 'A paper on word emergence in published writing and on social media accepted...',
           description: "",
+          section: "News",},{id: "news-i-ll-be-attending-eacl-2026-in-rabat-morocco-find-me-at-the-lchange-workshop-on-march-28",
+          title: 'I’ll be attending EACL 2026 in Rabat, Morocco. Find me at the LChange...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
