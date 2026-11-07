@@ -74,6 +74,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-attending-eacl-2026-in-rabat-morocco-find-me-at-the-lchange-workshop-on-march-28",
           title: 'I’ll be attending EACL 2026 in Rabat, Morocco. Find me at the LChange...',
           description: "",
+          section: "News",},{id: "news-i-am-co-organizing-the-women-in-ai-safety-acm-w-annual-celebration-2026-part-of-the-toronto-ai-safety-week",
+          title: 'I am co-organizing the Women in AI Safety: ACM-W Annual Celebration 2026 (part...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-a-panelist-on-the-opening-panel-trust-power-amp-amp-accountability-in-the-age-of-ai-at-qt-qonference-2026",
+          title: 'I will be a panelist on the Opening Panel: Trust, Power &amp;amp;amp; Accountability...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
